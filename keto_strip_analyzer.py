@@ -1,6 +1,9 @@
 import cv2 as cv
 import numpy as np
 
+# Set the path to the ketostrip image
+image_path = 'path/to/your/image.png'
+
 def hex_to_hsv(hex_color):
     hex_color = hex_color.lstrip('#')
     rgb_color = tuple(int(hex_color[i:i+2], 16) for i in (0, 2, 4))
@@ -17,7 +20,7 @@ colors_hsv = {
     "16.0 mmol/L - Large amounts": hex_to_hsv("#772958"),  
 }
 
-image = cv.imread('img/3.png')
+image = cv.imread(image_path)
 
 hsv_image = cv.cvtColor(image, cv.COLOR_BGR2HSV)
 

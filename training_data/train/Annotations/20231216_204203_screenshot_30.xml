@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train</folder>
+	<filename>20231216_204203_screenshot_30.jpg</filename>
+	<path>/Users/martingyhagen/Dropbox/ketonean/2/train/20231216_204203_screenshot_30.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1440</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>keto-tip</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>661</xmin>
+			<ymin>570</ymin>
+			<xmax>736</xmax>
+			<ymax>660</ymax>
+		</bndbox>
+	</object>
+</annotation>
